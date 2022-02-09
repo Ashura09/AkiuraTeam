@@ -72,6 +72,27 @@ body {
     cursor: pointer;
 }
 
+.Our {
+    position: absolute;
+    top: 14vh;
+    width: 15vw;
+    height: 5vh;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Coolvetica;
+    text-shadow: 0.05em 0.05em 0.1em black;
+    color: white;
+    white-space: nowrap;
+}
+
+.Our:hover {
+    color: #ffffaa;
+    cursor: pointer;
+}
+
 .menulogo {
     position: absolute;
     left: 8vw;
@@ -85,15 +106,14 @@ body {
     background-color: rgb(25,25,25);
     opacity: 60%;
     width: 320px;
-    height: 100px;
+    height: 75px;
     border-radius: 10pt;
-    box-shadow: 0px 0px 0.5em black;
+    box-shadow: 0px 0px 0.5em white;
 }
 
 .title {
     position: absolute;
     left: 160px;
-    top: 0.7vh;
     font-size: 18pt;
     color: white;
     font-weight: 700;
@@ -110,3 +130,31 @@ body {
     background-color: black;
     opacity: 50%;
 }
+
+.ourdiscord {
+    position: absolute;
+    right: 0.2%;
+    font-weight: 700;
+    font-family: Coolvetica;
+    color: white;
+}
+
+.backdrop {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    animation-duration: 30s;
+    animation-name: bganim;
+}
+
+@keyframes bganim {
+    from {
+        rotate: 0deg;
+        transform: scale(1);
+    }
+  
+    to {
+        rotate: -5deg;
+        transform: scale(1.25);
+    }
+  }
