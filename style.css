@@ -1,0 +1,112 @@
+body {
+    background-image: url("backdrops/ladder_combines.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: local("Helvetica Neue Bold"),
+         local("HelveticaNeue-Bold"),
+         url(coolvetica.ttf);
+    font-weight: bold;
+}
+
+.menuwrapper {
+    position: absolute;
+    left: 8vw;
+    top: 25vh;
+}
+
+.logo {
+    position: relative;
+    left: 1em;
+    top: -20px;
+}
+
+.shadow {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+}
+
+.Ashura {
+    position: absolute;
+    top: 2vh;
+    width: 15vw;
+    height: 5vh;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-size: 24pt;
+    font-family: Coolvetica;
+    text-shadow: 0.05em  0.05em 0.1em black;
+    color: white;
+    white-space: nowrap;
+}
+
+.Aki {
+    position: absolute;
+    top: 8vh;
+    width: 15vw;
+    height: 5vh;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Coolvetica;
+    text-shadow: 0.05em 0.05em 0.1em black;
+    color: white;
+    white-space: nowrap;
+}
+
+.Aki:hover {
+    color: #ffffaa;
+    cursor: pointer;
+}
+
+.Ashura:hover {
+    color: #ffffaa;
+    cursor: pointer;
+}
+
+.menulogo {
+    position: absolute;
+    left: 8vw;
+    top: 9vh;
+    width: 20vw;
+    height: 12vh;
+}
+
+.bg {
+    position: absolute;
+    background-color: rgb(25,25,25);
+    opacity: 60%;
+    width: 320px;
+    height: 100px;
+    border-radius: 10pt;
+    box-shadow: 0px 0px 0.5em black;
+}
+
+.title {
+    position: absolute;
+    left: 160px;
+    top: 0.7vh;
+    font-size: 18pt;
+    color: white;
+    font-weight: 700;
+    font-family: Coolvetica;
+    white-space: nowrap;
+}
+
+.bottompanel {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 5%;
+    width: 100%;
+    background-color: black;
+    opacity: 50%;
+}
